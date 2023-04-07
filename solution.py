@@ -17,4 +17,3 @@ def solution(p: float, x: np.array) -> tuple:
 
     x_max = x.max()
     return (x_max - 0.023) / a2 + 0.023, (x_max - 0.023) / a1 + 0.023
-    
